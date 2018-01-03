@@ -1,0 +1,9 @@
+--Creando Lineas  a lo Developer
+linea=splineShape()
+addnewSpline linea
+addKnot linea 1 #corner #line [200,-100,0]
+addKnot linea 1 #corner #line [-200,300,0]
+close linea 1
+updateShape linea
+--select linea
+--$.name='vectorb'
